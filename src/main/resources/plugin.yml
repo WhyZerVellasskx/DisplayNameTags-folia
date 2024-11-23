@@ -3,6 +3,7 @@ main: ${main}
 version: ${version}
 author: ${author}
 api-version: 1.17
+folia-supported: true
 
 depend:
   - packetevents
@@ -13,4 +14,4 @@ softdepend:
 
 commands:
   nametags-reload:
-    description: Reload the config
+    description: Raeload the config
