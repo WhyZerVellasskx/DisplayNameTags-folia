@@ -25,6 +25,7 @@ repositories {
     maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
     maven("https://repo.codemc.io/repository/maven-releases/")
     maven("https://maven.evokegames.gg/snapshots")
+    maven("https://repo.viaversion.com")
 }
 
 dependencies {
@@ -34,6 +35,7 @@ dependencies {
     compileOnly(libs.tab.api)
     compileOnly(libs.packet.events)
     implementation(libs.entity.lib)
+    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
 }
 
 tasks {
